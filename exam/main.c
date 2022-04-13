@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<math.h>
-#define discount  0.1
+#define discount  0.055
 #define price_of_egg  1.2
 
 
@@ -20,7 +20,7 @@ int main()
 {
     float monday,tuesday,wednesday,thursday,friday;
      float mon,tues,wed,thur,fri;
-    float a=600, b=610, c=580, d=600, e=670;
+    float a=500, b=510, c=480, d=500, e=570;
     mon = calculateFoodPrice(2, 1,2);        // function call
     monday=(mon*a)-(mon*discount*a);
     
